@@ -21,6 +21,6 @@ module.exports = async (client, member) => {
 
   var today = mm + '/' + dd + '/' + yyyy;
 
-  db.prepare('INSERT INTO guildmember ( userid, date, state ) VALUES ( ?, ?, ? )').run(member.id, today, "join");
+  db.prepare('INSERT INTO guildmember ( userid, date, state ) VALUES ( ?, ?, ? )').run(member.id, today, "leave");
 
 };
