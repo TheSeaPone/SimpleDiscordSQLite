@@ -1,0 +1,20 @@
+{
+  "name": "SimpleDiscordSQLite",
+  "version": "1.0.0",
+  "description": "SQLite framework for Discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "TheSeaPone",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^4.1.4",
+    "discord.js": "^11.3.2",
+    "enmap": "^2.7.0",
+    "lowdb": "^1.0.0"
+  }
+}
